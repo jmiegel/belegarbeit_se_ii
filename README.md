@@ -39,7 +39,7 @@ Werkzeuge und Technologien NACH ABSPRACHE (Einsatzumgebung = Labor Z136b)
 * Präsentation (Terminvereinbarung nach Veröffentlichung Prüfungsplan)
 
 Treffen:
-15./16. KW: Projektleitung, Anforderungsanalyse, Qualitätssicherung, Dokumentation, Teamarbeit
-18./19. KW: Verteidigung Pflichtenheft, Vorstellung Entwurfskonzept
-21./22. KW: Verteidigung Entwurf & Datenbankkonzeption, Vorstellung Konzept Implementierung
-23./24. KW: Implementierung, Dokumentation, Teamarbeit
+* 15./16. KW: Projektleitung, Anforderungsanalyse, Qualitätssicherung, Dokumentation, Teamarbeit
+* 18./19. KW: Verteidigung Pflichtenheft, Vorstellung Entwurfskonzept
+* 21./22. KW: Verteidigung Entwurf & Datenbankkonzeption, Vorstellung Konzept Implementierung
+* 23./24. KW: Implementierung, Dokumentation, Teamarbeit
