@@ -8,6 +8,7 @@ Verantwortlichkeiten:
 * Test: Tejan
 * Dokumentation: Julia
 * Qualitätssicherung: Dominik
+* Leitung: Julia
 
 Aufgabenstellung:
 * Entwicklung eines SW-Teilsystems für einen Anwendungsfall aus dem Kontext der Bibliothek
