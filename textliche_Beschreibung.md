@@ -13,15 +13,29 @@ Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des
 ## 4.Benutzerschnittstellen
 Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen (siehe 5. Funktionale Anforderungen), bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher.
 
-Hier Bild Oberflächenprototyp einfügen
+![](https://raw.githubusercontent.com/jmiegel/belegarbeit_se_ii/5_Benutzerschnittstelle/Oberflaechenprototyp.png)
 
 ## 5.Funktionale Anforderungen
+### 5.1 Interne Bücherausleihe verwalten
+#### Anwendungsfalldiagramm
+![](https://user-images.githubusercontent.com/25896546/39181054-c398fb40-47b8-11e8-9acf-b9f97448968f.jpg)
+#### Satzschablonen nach Chris Rupp
 
-### 5.1 Buch ausleihen
-
-### 5.2 Ausleihe verlängern
-
-### 5.3 Buch zurückgeben
+### 5.2 Buch ausleihen
+#### Aktivitätsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181523-3c9b2d50-47ba-11e8-8a6d-f63436edc816.JPG)
+#### Zustandsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181526-3cea7252-47ba-11e8-8128-844b80d75cd9.JPG)
+### 5.3 Ausleihe verlängern
+#### Aktivitätsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181525-3cd3dd94-47ba-11e8-8ec5-f0bebaaffaa6.JPG)
+#### Zustandsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181528-3d1a2650-47ba-11e8-8155-e0647034e3a9.JPG)
+### 5.4 Buch zurückgeben
+#### Aktivitätsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181524-3cbb1854-47ba-11e8-8c63-1483db0c6e67.JPG)
+#### Zustandsdiagramm
+![](https://user-images.githubusercontent.com/38462344/39181527-3d02a912-47ba-11e8-83e4-5f3d5327a25f.JPG)
 
 ## 6. Anforderungen an das Datenmodell
 
@@ -36,3 +50,4 @@ Hier Bild Oberflächenprototyp einfügen
 ## 11. Glossar
 
 ## 12. Anhang
+
