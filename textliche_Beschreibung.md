@@ -11,7 +11,7 @@ Das Software-System muss übersichtlich, leicht verständlich und von jedem Bibl
 Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem DatenbankManagementSystem (DBMS) MySQL von Oracle. Das System arbeitet sowohl für Linux, Windows als auch auf MacOS. 
 
 ## 4.Benutzerschnittstellen
-Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen (siehe 5. Funktionale Anforderungen), bereitsgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher.
+Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen (siehe 5. Funktionale Anforderungen), bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher.
 
 Hier Bild Oberflächenprototyp einfügen
 
