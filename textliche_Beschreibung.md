@@ -20,6 +20,11 @@ Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische N
 #### Anwendungsfalldiagramm
 ![](https://user-images.githubusercontent.com/25896546/39181054-c398fb40-47b8-11e8-9acf-b9f97448968f.jpg)
 #### Satzschablonen nach Chris Rupp
+Das SW-System muss eine Ausleihe ermöglichen.  
+Das SW-System muss eine Rückgabe ermöglichen.  
+Das SW-System muss eine Verlängerung ermöglichen.  
+Das SW-System sollte einen Rückgabebeleg erstellen.  
+Das SW-System sollte Benachrichtigung über eine anstehende Abgabe bereitstellen.  
 
 ### 5.2 Buch ausleihen
 #### Aktivitätsdiagramm
@@ -38,6 +43,37 @@ Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische N
 ![](https://user-images.githubusercontent.com/38462344/39181527-3d02a912-47ba-11e8-83e4-5f3d5327a25f.JPG)
 
 ## 6. Anforderungen an das Datenmodell
+### 6.1 Datenstrukturen
+#### Leihwunsch
+Bibo_ID
++Buch
++Ausleihdatum
+
+#### Leihschein
+Leihschein
+
+#### Absage
+Absage
+
+#### Verlängerungswunsch
+Bibo_ID  
++Buch  
++Leihschein  
++Ausleihdatum  
+
+#### Rückgabewunsch
+Bibo_ID  
++Buch  
++Leihschein  
++Ausleihdatum  
+
+#### Rückgabebeleg
+Rückgabebeleg
+
+#### Benachrichtigung
+Benachrichtigung
+
+### 6.2 ERM
 
 ## 7. Qualitätsanforderungen
 
