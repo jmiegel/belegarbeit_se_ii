@@ -8,7 +8,7 @@ Die interne Verwaltung der Buchausleihe stellt dabei einen zentralen Baustein ei
 Das Software-System muss übersichtlich, leicht verständlich und von jedem Bibliotheksmitarbeiter bedienbar sein. Dabei sollte die Effizienz des Systems nicht beeinträchtigt sein. Eine saubere und klar strukturierte Programmierung des Verwaltungssystems trägt dazu bei, die vielseitigen Aufgaben trotz großer Datenmengen jederzeit zu bearbeiten. Eine optimierte Zusammensetzung von Software-System und Datenbank ist dabei maßgeblich für die Effizienz und Effektivität.
 
 ## 3. Softwareumgebung
-Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem DatenbankManagementSystem (DBMS) MySQL von Oracle. as System arbeitet sowohl für Linux, Windows als auch auf MacOS. 
+Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem DatenbankManagementSystem (DBMS) MySQL von Oracle. Das System arbeitet sowohl für Linux, Windows als auch auf MacOS. 
 
 ## 4.Benutzerschnittstellen
 Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen (siehe 5. Funktionale Anforderungen), bereitsgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher.
