@@ -28,19 +28,19 @@ Das SW-System sollte Benachrichtigung über eine anstehende Abgabe bereitstellen
 
 ### 5.2 Buch ausleihen
 #### Aktivitätsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181523-3c9b2d50-47ba-11e8-8a6d-f63436edc816.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356264-e0f54d52-4a0f-11e8-867b-1bae9b47ee42.JPG)
 #### Zustandsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181526-3cea7252-47ba-11e8-8128-844b80d75cd9.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356269-e148b4a6-4a0f-11e8-9a2c-b88d88baea44.JPG)
 ### 5.3 Ausleihe verlängern
 #### Aktivitätsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181525-3cd3dd94-47ba-11e8-8ec5-f0bebaaffaa6.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356266-e12b5d2a-4a0f-11e8-9c69-15dc343b06fd.JPG)
 #### Zustandsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181528-3d1a2650-47ba-11e8-8155-e0647034e3a9.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356271-e18247e8-4a0f-11e8-86f1-1217f7badcca.JPG)
 ### 5.4 Buch zurückgeben
 #### Aktivitätsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181524-3cbb1854-47ba-11e8-8c63-1483db0c6e67.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356265-e110435a-4a0f-11e8-885a-16047ff181b1.JPG)
 #### Zustandsdiagramm
-![](https://user-images.githubusercontent.com/38462344/39181527-3d02a912-47ba-11e8-83e4-5f3d5327a25f.JPG)
+![](https://user-images.githubusercontent.com/38462344/39356270-e1650b24-4a0f-11e8-807e-f664e99f7346.JPG)
 
 ## 6. Anforderungen an das Datenmodell
 ### 6.1 Datenstrukturen
