@@ -13,7 +13,8 @@ Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des
 ## 4.Benutzerschnittstellen
 Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen (siehe 5. Funktionale Anforderungen), bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher.
 
-![](https://raw.githubusercontent.com/jmiegel/belegarbeit_se_ii/5_Benutzerschnittstelle/Oberflaechenprototyp.png)
+![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_a.png)
+![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_b.png)
 
 ## 5.Funktionale Anforderungen
 ### 5.1 Interne Bücherausleihe verwalten
