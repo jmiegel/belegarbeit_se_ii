@@ -34,18 +34,21 @@ Die Verwaltung der internen Bücherausleihe gliedert sich in die drei Anwendungs
 ![](https://user-images.githubusercontent.com/25896546/39179230-14020f90-47b4-11e8-8223-50829466763b.jpg)
 
 #### 5.3.2 Buch ausleihen
+Wenn ein Benutzer ein Buch aus dem Bestand er Bibliothek ausleihen möchte, wird dieser Vorgang durch diese Funktionalität abgedeckt.
 Vom Nutzer wird über den Mitarbeiter der Bibliothek der Leihwunsch ins System eingegeben. Dort wird dieser auf Vollständigkeit überprüft und bei Unvollständigkeit eine Fehlermeldung ausgegeben, sodass der Mitarbeiter fehlende Daten mit dem Nutzer ergänzen kann. Falls der Leihwunsch dann vollständig ist, wird in der Datenbank überprüft, ob das entsprechende Buch verfügbar ist. Sollte es nicht verfügbar sein so wird eine Absage ausgegeben. Ansonsten wird die Ausleihe in der Datenbank abgespeichert und der Nutzer erhält seinen Leihschein.
 
 ##### Aktivitätsdiagramm
 ![](https://user-images.githubusercontent.com/38462344/39565543-ab2d24da-4eb8-11e8-8fd1-4b24a6027b51.JPG)
 
 ### 5.3.3 Ausleihe verlängern
+Es ist möglich eine Ausleihe zu verlängern. Äußert ein Benutzer gegenüber dem Mitarbeiter der Bibliothek den Wunsch, kann dies  mittels dieser Funktionalität realisiert werden.
 Vom Nutzer wird über den Mitarbeiter der Bibliothek der Verlängerungswunsch ins System eingegeben. In der Datenbank wird die bestehende Leihe überprüft. Sollte die bestehende Leihe überzogen sein, wird der Verlängerungsvorgang abgebrochen und eine Absage ausgegeben (der Nutzer müsste erst seine Strafgebühr zahlen). Wenn die Leihe nicht überzogen ist, wird in der Datenbank überprüft ob eine Reservierung für das Buch vorliegt. Sollte dies der Fall sein, so wird der Verlängerungsvorgang abgebrochen und es wird eine Absage ausgegeben. Andernfalls wird die Verlängerung in der Datenbank abgespeichert und ein neuer Leihschein wird für den Nutzer gedruckt.
 
 ##### Aktivitätsdiagramm
 ![](https://user-images.githubusercontent.com/38462344/39565545-ab62d4e0-4eb8-11e8-8561-6bafd10a936b.JPG)
 
 ### 5.3.4 Buch zurückgeben
+Ein Buch kann mit Hilfe dieser Funktionaliät zurückgegeben werden.
 Vom Nutzer wird über den Mitarbeiter der Bibliothek der Rückgabewunsch ins System eingegeben. In der Datenbank wird das zurückzugebene Buch überprüft. Sollte es sich um das falsche Buch handeln, so wird der Vorgang abgebrochen und eine Fehlermeldung ausgegeben. Ansonsten wird die Rückgabe in der Datenbank gespeichert, ggf. eine Meldung an denjenigen, der das Buch reserviert hat, gesendet und der Rückgabebeleg für den Nutzer ausgedruckt.
 
 ##### Aktivitätsdiagramm
