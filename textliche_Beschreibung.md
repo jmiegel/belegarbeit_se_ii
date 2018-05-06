@@ -31,7 +31,7 @@ Das von uns entwickelte System wird lediglich den Anwendungsfall "Interne Büche
 #### 5.3.1 Anwendungsfälle des Teilsystems interne Bücherausleihe verwalten
 Die Verwaltung der internen Bücherausleihe gliedert sich in die drei Anwendungsfälle "Buch ausleihen", "Ausleihe verlängern" und "Buch zurückgeben". Dabei geht die Initialisierung des Ereignisses vom Wunsch des Benutzers aus. Der Mitarbeiter der Bibliothek bedient lediglich das von uns entwickelte System.
 
-![](https://user-images.githubusercontent.com/25896546/39181054-c398fb40-47b8-11e8-9acf-b9f97448968f.jpg)
+![](https://user-images.githubusercontent.com/25896546/39179230-14020f90-47b4-11e8-8223-50829466763b.jpg)
 
 #### 5.3.2 Buch ausleihen
 #### Aktivitätsdiagramm
@@ -45,7 +45,7 @@ Die Verwaltung der internen Bücherausleihe gliedert sich in die drei Anwendungs
 #### Aktivitätsdiagramm
 ![](https://user-images.githubusercontent.com/38462344/39565544-ab4a37d2-4eb8-11e8-8c96-dc6c9f564b89.JPG)
 
-#### 5.4 Satzschablonen nach Chris Rupp
+### 5.4 Satzschablonen nach Chris Rupp
 Das SW-System muss eine Ausleihe ermöglichen.  
 Das SW-System muss eine Rückgabe ermöglichen.  
 Das SW-System muss eine Verlängerung ermöglichen.  
