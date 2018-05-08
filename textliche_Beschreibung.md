@@ -114,10 +114,10 @@ Das Softwaresystem soll die unter 5. aufgeführten Funktionalitäten korrekt und
 
 ## 8. Rahmenbedingungen
 ### 8.1 Technische/Technologische Rahmenbedingungen
-Rechner Labor beschreiben
+Das Softwaresystem muss im Raum Z136b der HTW Dresden unter dem Betriebssystem Windows 10 lauffähig und ausführbar sein. 
 
 ### 8.2 Rechtliche Rahmenbedingungen
-Benutzungsordnung etc.
+Alle Benutzer haben sich an die gültige Bibliotheksnutzerordnung der Bibliothek der HTW Dresden zu halten. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
 
 ### 8.3 Organisatorische Rahmenbedingungen
 
