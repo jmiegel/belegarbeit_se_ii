@@ -95,12 +95,28 @@ Benachrichtigung
 ### 6.2 ERM
 
 ## 7. Qualitätsanforderungen
+zeitl, usability d oberfläche, Fehlermeldungen
+Das Softwaresystem soll die unter 5. aufgeführten Funktionalitäten korrekt und vollumfänglich erfüllen. Die graphische Benutzeroberfläche soll übersichtlich gestaltet und gut lesbar sein. Leicht verständliche und hilfreiche Fehlermeldungen erleichtern zudem die Bedienung des Softwaresystems und geben dem Nutzer Hinweise zur Fehlervermeidung. 
 
 ## 8. Rahmenbedingungen
+### 8.1 Technische/Technologische Rahmenbedingungen
+Rechner Labor beschreiben
+
+### 8.2 Rechtliche Rahmenbedingungen
+Benutzungsordnung etc.
+
+### 8.3 Organisatorische Rahmenbedingungen
+
 
 ## 9. Anforderungen an die Dokumentation
+was wollen wir abgeben, 
+### 9.1 Benutzerdokumentation 
+### 9.2 Entwicklerdokumentation
+### 9.3 Testdokumentation
 
 ## 10. Abnahmekriterien
+USLÄSER AUS rEAKTIONSTABELLE entspr. 1 Kriterium (z.B. 500 Bücher)
+
 
 ## 11. Glossar
 
