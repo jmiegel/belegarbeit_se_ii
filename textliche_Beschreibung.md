@@ -109,7 +109,7 @@ Benutzungsordnung etc.
 
 
 ## 9. Anforderungen an die Dokumentation
-was wollen wir abgeben, 
+Um sowohl Endbenutzern als auch Entwicklern die Funktionsweise des Softwaresystems zu erläutern, wird eine Dokumentation zur Verfügung gestellt. Den Benutzern wird durch die Benutzerdokumentation die Anwendung des Softwaresystems erleichtert. Die Entwicklerdokumentation stellt Informationen zu den erzeugten und verarbeiteten Daten, den enthaltenen Klassen, Methoden und Funktionen und den systemtechnischen Voraussetzungen bereit.
 ### 9.1 Benutzerdokumentation 
 ### 9.2 Entwicklerdokumentation
 ### 9.3 Testdokumentation
