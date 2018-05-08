@@ -120,6 +120,7 @@ Das Softwaresystem muss im Raum Z136b der HTW Dresden unter dem Betriebssystem W
 Alle Benutzer haben sich an die gültige Bibliotheksnutzerordnung der Bibliothek der HTW Dresden zu halten. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
 
 ### 8.3 Organisatorische Rahmenbedingungen
+Die unterschiedlichen Benutzertypen haben verschiedene Ausleihzeiten, die durch die Bibliotheksnutzerordnung geregelt sind.  
 
 ## 9. Anforderungen an die Dokumentation
 Um sowohl Endbenutzern als auch Entwicklern die Funktionsweise des Softwaresystems zu erläutern, wird eine Dokumentation zur Verfügung gestellt. Diese gliedert sich in unterschiedliche Teildokumentationen.
