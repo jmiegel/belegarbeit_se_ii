@@ -31,7 +31,7 @@ Das von uns entwickelte System wird lediglich den Anwendungsfall "Interne Büche
 #### 5.3.1 Anwendungsfälle des Teilsystems interne Bücherausleihe verwalten
 Die Verwaltung der internen Bücherausleihe gliedert sich in die drei Anwendungsfälle "Buch ausleihen", "Ausleihe verlängern" und "Buch zurückgeben". Dabei geht die Initialisierung des Ereignisses vom Wunsch des Benutzers aus. Der Mitarbeiter der Bibliothek bedient lediglich das von uns entwickelte System.
 
-![](https://user-images.githubusercontent.com/25896546/39179230-14020f90-47b4-11e8-8223-50829466763b.jpg)
+![](https://user-images.githubusercontent.com/25896546/39675128-0ba26604-5157-11e8-9a44-079f166784fe.jpg)
 
 #### 5.3.2 Buch ausleihen
 Wenn ein Benutzer ein Buch aus dem Bestand er Bibliothek ausleihen möchte, wird dieser Vorgang durch diese Funktionalität abgedeckt.
