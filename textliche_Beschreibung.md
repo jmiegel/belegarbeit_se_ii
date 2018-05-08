@@ -63,34 +63,48 @@ Das SW-System sollte Benachrichtigung über eine anstehende Abgabe bereitstellen
 
 ## 6. Anforderungen an das Datenmodell
 ### 6.1 Datenstrukturen
+### 6.1 Datenstrukturen
 #### Leihwunsch
-Bibo_ID
-+Buch
-+Ausleihdatum
+Nutzer_ID  
++Signatur  
 
 #### Leihschein
-Leihschein
+Nutzer_ID  
++Signatur  
++Buchtitel  
++Autor  
++Rückgabedatum  
++Leihscheintext  
 
 #### Absage
-Absage
+Nutzer_ID  
++Signatur  
++Buchtitel  
++Autor  
++Absagetext  
 
 #### Verlängerungswunsch
-Bibo_ID  
-+Buch  
-+Leihschein  
-+Ausleihdatum  
+Nutzer_ID  
++Signatur  
++Ausleihdatum   
 
 #### Rückgabewunsch
-Bibo_ID  
-+Buch  
-+Leihschein  
-+Ausleihdatum  
+Nutzer_ID  
++Signatur   
 
 #### Rückgabebeleg
-Rückgabebeleg
+Nutzer_ID  
++Signatur  
++Buchtitel  
++Autor  
++Rückgabedatum  
++Rückgabebelegstext  
 
 #### Benachrichtigung
-Benachrichtigung
+Signatur  
++Buchtitel  
++Autor  
++Benachrichtigungstext  
 
 ### 6.2 ERM
 
