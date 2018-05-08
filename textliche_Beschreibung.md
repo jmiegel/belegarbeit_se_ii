@@ -139,7 +139,6 @@ Folgende Testfälle werden vorgeführt:
 * Verlängerung eines mittlerweile anderweitig vorgmerkten Werkes
 * Verlängerung mit fehlenden, aber notwendigen Eingaben in das System
 * Verlängerung mit korrekten Eingaben
-
 * Rückgabe mit fehlenden, aber notwendigen Eingaben in das System
 * Rückgabe mit korrekten Eingaben
 
