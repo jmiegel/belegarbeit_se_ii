@@ -107,16 +107,41 @@ Benutzungsordnung etc.
 
 ### 8.3 Organisatorische Rahmenbedingungen
 
-
 ## 9. Anforderungen an die Dokumentation
-Um sowohl Endbenutzern als auch Entwicklern die Funktionsweise des Softwaresystems zu erläutern, wird eine Dokumentation zur Verfügung gestellt. Den Benutzern wird durch die Benutzerdokumentation die Anwendung des Softwaresystems erleichtert. Die Entwicklerdokumentation stellt Informationen zu den erzeugten und verarbeiteten Daten, den enthaltenen Klassen, Methoden und Funktionen und den systemtechnischen Voraussetzungen bereit.
-### 9.1 Benutzerdokumentation 
+Um sowohl Endbenutzern als auch Entwicklern die Funktionsweise des Softwaresystems zu erläutern, wird eine Dokumentation zur Verfügung gestellt. Diese gliedert sich in unterschiedliche Teildokumentationen.
+Den Benutzern wird durch die Benutzerdokumentation die Anwendung des Softwaresystems erleichtert. Die Entwicklerdokumentation stellt Informationen zu den erzeugten und verarbeiteten Daten, den enthaltenen Klassen, Methoden und Funktionen und den systemtechnischen Voraussetzungen bereit. Zudem wird eine Testdokumentation erstellt, die dem Nachweis von Testfällen dient, mit denen die ordnungsgemäße Funktionsweise des Softwaresystems sichergestellt wurde.
+
+### 9.1 Benutzerdokumentation
+Die Benutzerdokumentation ist auf den Endbenutzer ausgerichtet. Sie soll ihm die Kenntnisse vermitteln, die nötig sind, um das Softwaresystem vollumfänglich und ordnungsgemäß nutzen und bedienen zu können. Sie informiert über die Funktionsweise der Software, die Bedienung über die Benutzeroberfläche, Hinweise zur Behebung möglicherweise auftretender Fehler und enthält ein Glossar zur Erläuterung von Fachbegriffen.
+ 
 ### 9.2 Entwicklerdokumentation
+Neben einer ausführlichen Kommentierung im Programmcode wird eine Entwicklerdokumentation zur Verfügung gestellt. Sie beschreibt die verwendeten Klassen, Module, Schnittstellen und Erweiterungsmöglichkeiten der Software und bietet einen Einblick in die inneren Zusammenhänge und Funktionsweisen. Die systemtechnischen Voraussetzungen werden erläutert.
+
 ### 9.3 Testdokumentation
+Die Testdokumentation beschreibt die einzelnen Testfälle, deren Testspezifikationen und informiert über die Ergebnisse der durchlaufenen Tests. So kann für die durchlaufenen Testfälle eine ordnungsgemäße Funktionsweise der Software nachgewiesen werden.
 
 ## 10. Abnahmekriterien
-USLÄSER AUS rEAKTIONSTABELLE entspr. 1 Kriterium (z.B. 500 Bücher)
+Um die Funktionsfähigkeit des Softwaresystems nachzuweisen, werden zudem Unit-Tests erstellt und durchgeführt. Dazu werden Testdaten angelegt und die Datenbank ggf. um die, für die Testdurchführung nötigen, Testdaten erweitert (z.B. Benutzerdaten). Diese Unit-Tests werden am Tag der Abnahme vorgeführt.
 
+Zudem müssen zur Abnahme alle Tests aus den Testfällen fehlerfrei vorgeführt werden.
+Folgende Testfälle werden vorgeführt:
+
+### 10.1 Dialog Ausleihe
+* Ausleihe eines nicht ausleihbaren Werkes
+* Ausleihe ohne gültigen Benutzerausweis
+* Ausleihe eines bereits anderweitig vorgemerkten Werkes
+* Ausleihe mit fehlenden, aber notwendigen Eingaben in das System
+* Ausleihe mit korrekten Eingaben
+
+### 10.2 Dialog Rückgabe und Verlängerung
+* Verlängerung über die Gültigkeit des Benutzerausweises hinaus
+* Verlängerung trotzdem der Benutzer seinen Verpflichtungen der Bibliothek gegenüber nicht nachgekommen ist 
+* Verlängerung eines mittlerweile anderweitig vorgmerkten Werkes
+* Verlängerung mit fehlenden, aber notwendigen Eingaben in das System
+* Verlängerung mit korrekten Eingaben
+
+* Rückgabe mit fehlenden, aber notwendigen Eingaben in das System
+* Rückgabe mit korrekten Eingaben
 
 ## 11. Glossar
 
