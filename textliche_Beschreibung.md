@@ -8,7 +8,7 @@ Die interne Verwaltung der Buchausleihe stellt dabei einen zentralen Baustein ei
 Das Software-System muss übersichtlich, leicht verständlich und von jedem Bibliotheksmitarbeiter bedienbar sein. Dabei sollte die Effizienz des Systems nicht beeinträchtigt sein. Eine saubere und klar strukturierte Programmierung des Verwaltungssystems trägt dazu bei, die vielseitigen Aufgaben trotz großer Datenmengen jederzeit zu bearbeiten. Eine optimierte Zusammensetzung von Software-System und Datenbank ist dabei maßgeblich für die Effizienz und Effektivität.
 
 ## 3. Softwareumgebung
-Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem DatenbankManagementSystem (DBMS) MySQL von Oracle. Das System arbeitet sowohl für Linux, Windows als auch auf MacOS. 
+Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem Datenbankmanagementsystem (DBMS) MySQL von Oracle. Das System arbeitet aus Windows 10. 
 
 ## 4.Benutzerschnittstellen
 Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen, bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher. Folgende Abbildungen geben einen ersten beispielhaften Eindruck der Benutzeroberfläche.
@@ -165,7 +165,6 @@ Folgende Testfälle werden vorgeführt:
 * **Anwendungsfalldiagramm** - stellt die funktionalen Anforderungen aus der Sicht der Anwender dar; die funktionalen Anforderungen werden zu den Beiteiligten aus dem Kontext in Beziehung gesetzt
 * **Datenbank** - enthält die nach einheitlichen Gesichtspunkten gespeicherte Menge der Objekte, Objektklassen und Beziehungen eines Bereichs (einschließlich zugehöriger Organisations- und Metadaten)
 * **Datenbankmanagamentsystem** - Software, die es aufbauend auf dem Rechnerbetriebssystem gestattet, die Datenmenge effektif und rationell zu speichern, zu pflegen, auszuwerten und Sonderfunktionen, wie Datensicherung, Zugriffschutz u.a. auszuführen
-* **Datenbanksystem** - Datenbank(en) und Datenbankbetriebssystem bilden zusammen das Datenbanksystem
 * **ERM** - Entity Relationship Model; entspricht dem semantischen Datenmodell und stellt mittels Objekten und deren Beziehung zueinander die Zusammenhänge, Bedeutungen sowie die Informationsarten der einzelnen Objekte dar
 * **GUI** - graphische Benutzeroberfläche; über das GUI ist die Anwendungssoftware bedienbar
 * **Unit-Test** - testet Einzelteile (Units) eines Programms auf ihre Funktionalität
