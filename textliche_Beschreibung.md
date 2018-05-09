@@ -107,7 +107,7 @@ Signatur
 +Benachrichtigungstext  
 
 ### 6.2 ERM 
-Entity Relationship Model für das ausleihen, verlängern und zurückgeben von Büchern
+Entity Relationship Model für das Ausleihen, Verlängern und Zurückgeben von Büchern
 
 ![](https://user-images.githubusercontent.com/25896546/39780432-8b2d9f54-530c-11e8-8ef4-2157a0ca331b.jpg)
 
