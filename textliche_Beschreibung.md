@@ -161,6 +161,15 @@ Folgende Testfälle werden vorgeführt:
 * Rückgabe mit korrekten Eingaben
 
 ## 11. Glossar
+* **Aktivitätsdiagramm** - stellt dar, welche Aktionen aufeinander folgen, zyklisch oder bedingungsabhängig gesteuert sind; dabei können Aktionen definierten Verantwortungsbereichen zugeordnet werden
+* **Anwendungsfalldiagramm** - stellt die funktionalen Anforderungen aus der Sicht der Anwender dar; die funktionalen Anforderungen werden zu den Beiteiligten aus dem Kontext in Beziehung gesetzt
+* **Datenbank** - enthält die nach einheitlichen Gesichtspunkten gespeicherte Menge der Objekte, Objektklassen und Beziehungen eines Bereichs (einschließlich zugehöriger Organisations- und Metadaten)
+* **Datenbankmanagamentsystem** - Software, die es aufbauend auf dem Rechnerbetriebssystem gestattet, die Datenmenge effektif und rationell zu speichern, zu pflegen, auszuwerten und Sonderfunktionen, wie Datensicherung, Zugriffschutz u.a. auszuführen
+* **Datenbanksystem** - Datenbank(en) und Datenbankbetriebssystem bilden zusammen das Datenbanksystem
+
+* **ERM** - Entity Relationship Model; entspricht dem semantischen Datenmodell und stellt mittels Objekten und deren Beziehung zueinander die Zusammenhänge, Bedeutungen sowie die Informations-Arten der einzelnen Objekte dar
+* **GUI** - Graphische Benutzeroberfläche; über das GUI ist die Anwendungssoftware bedienbar
+* **Unit-Test** - testet Einzelteile (Units) eines Programms auf ihre Funktionalität
+
 
 ## 12. Anhang
-
