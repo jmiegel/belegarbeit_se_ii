@@ -10,13 +10,13 @@ Das Software-System muss übersichtlich, leicht verständlich und von jedem Bibl
 ## 3. Softwareumgebung
 Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem Datenbankmanagementsystem (DBMS) MySQL von Oracle. Das System arbeitet aus Windows 10. 
 
-## 4.Benutzerschnittstellen
+## 4. Benutzerschnittstellen
 Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen, bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher. Folgende Abbildungen geben einen ersten beispielhaften Eindruck der Benutzeroberfläche.
 
 ![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_a.png)
 ![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_b.png)
 
-## 5.Funktionale Anforderungen
+## 5. Funktionale Anforderungen
 ### 5.1 Kontext der Bibliothek
 Um die Bibliothek zu nutzen und zu verwalten haben unterschiedliche Personengruppen Zugriff auf das System. Die Gruppe der Benutzer ist abstrakt und  enthält die Angehörigen der HTW Dresden, das heißt Studenten bzw. Mitarbeiter, und sonstige Benutzer. Aus der Zugehörigkeit zu den unterschiedlichen Benutzergruppen ergeben sich unterschiedliche Rahmenbedingungen bzgl. der Nutzungsmöglichkeiten des Buchbestands. Das von uns entwickelte System sieht deshalb als Benutzer lediglich die Studenten der HTW Dresden vor. Es besteht jedoch die Möglichkeit, das System um die beiden anderen Benutzergruppen zu einem späteren Zeitpunkt zu erweitern. Personen, die Buchhändler, das Dezernat HF und Partnerbibliotheken spielen für die von uns bearbeiteten Anwendungsfälle jedoch keine Rolle und sollen daher nicht näher betrachtet werden. 
 ![](https://user-images.githubusercontent.com/25896546/39617039-683b8538-4f7e-11e8-80f6-6034008adc0f.jpg)
@@ -120,7 +120,7 @@ Das Softwaresystem soll die unter 5. aufgeführten Funktionalitäten korrekt und
 Das Softwaresystem muss im Raum Z136b der HTW Dresden unter dem Betriebssystem Windows 10 lauffähig und ausführbar sein. 
 
 ### 8.2 Rechtliche Rahmenbedingungen
-Alle Benutzer haben sich an die gültige Bibliotheksnutzerordnung der Bibliothek der HTW Dresden zu halten. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
+Es gilt die gültige Bibliotheksnutzerordnung der Bibliothek der HTW Dresden. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
 
 ### 8.3 Organisatorische Rahmenbedingungen
 Die unterschiedlichen Benutzertypen haben verschiedene Ausleihzeiten, die durch die Bibliotheksnutzerordnung geregelt sind.  
