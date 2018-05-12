@@ -8,10 +8,10 @@ Die interne Verwaltung der Buchausleihe stellt dabei einen zentralen Baustein ei
 Das Software-System muss übersichtlich, leicht verständlich und von jedem Bibliotheksmitarbeiter bedienbar sein. Dabei sollte die Effizienz des Systems nicht beeinträchtigt sein. Eine saubere und klar strukturierte Programmierung des Verwaltungssystems trägt dazu bei, die vielseitigen Aufgaben trotz großer Datenmengen jederzeit zu bearbeiten. Eine optimierte Zusammensetzung von Software-System und Datenbank ist dabei maßgeblich für die Effizienz und Effektivität.
 
 ## 3. Softwareumgebung
-Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem Datenbankmanagementsystem (DBMS) MySQL von Oracle. Das System arbeitet aus Windows 10. 
+Um die Zielbestimmungen zu gewährleisten, verwenden wir zur Implementierung des Software-Systems: C++ gekoppelt mit dem Datenbankmanagementsystem (DBMS) MySQL von Oracle. Das System arbeitet auf Windows 10. 
 
 ## 4. Benutzerschnittstellen
-Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen, bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher. Folgende Abbildungen geben einen ersten beispielhaften Eindruck der Benutzeroberfläche.
+Unsere Software ist durch die Mitarbeiter der Bibliothek über eine graphische Nutzeroberfläche (GUI) bedienbar. Über diese werden alle zur Verwaltung der Buchausleihe benötigten Funktionen bereitgestellt. Eine übersichtliche Strukturierung der Nutzeroberfläche sowie verständliche Fehlermeldungen stellen eine hohe Benutzerfreundlichkeit sicher. Folgende Abbildungen geben einen ersten beispielhaften Eindruck der Benutzeroberfläche.
 
 ![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_a.png)
 ![](https://github.com/jmiegel/belegarbeit_se_ii/blob/5_Benutzerschnittstelle/Oberflaechenprototyp_2_b.png)
@@ -42,7 +42,7 @@ Vom Nutzer wird über den Mitarbeiter der Bibliothek der Leihwunsch ins System e
 
 ### 5.3.3 Ausleihe verlängern
 Es ist möglich eine Ausleihe zu verlängern. Äußert ein Benutzer gegenüber dem Mitarbeiter der Bibliothek den Wunsch, kann dies  mittels dieser Funktionalität realisiert werden.
-Vom Nutzer wird über den Mitarbeiter der Bibliothek der Verlängerungswunsch ins System eingegeben. In der Datenbank wird die bestehende Leihe überprüft. Sollte die bestehende Leihe überzogen sein, wird der Verlängerungsvorgang abgebrochen und eine Absage ausgegeben (der Nutzer müsste erst seine Strafgebühr zahlen). Wenn die Leihe nicht überzogen ist, wird in der Datenbank überprüft ob eine Reservierung für das Buch vorliegt. Sollte dies der Fall sein, so wird der Verlängerungsvorgang abgebrochen und es wird eine Absage ausgegeben. Andernfalls wird die Verlängerung in der Datenbank abgespeichert und ein neuer Leihschein wird für den Nutzer gedruckt.
+Vom Nutzer wird über den Mitarbeiter der Bibliothek der Verlängerungswunsch ins System eingegeben. In der Datenbank wird die bestehende Leihe überprüft. Sollte die bestehende Leihe überzogen sein, wird der Verlängerungsvorgang abgebrochen und eine Absage ausgegeben (der Nutzer müsste erst seine Strafgebühr zahlen). Wenn die Leihe nicht überzogen ist, wird in der Datenbank überprüft ob eine Reservierung für das Buch vorliegt. Sollte dies der Fall sein, so wird der Verlängerungsvorgang abgebrochen und es wird eine Absage ausgegeben. Anderenfalls wird die Verlängerung in der Datenbank abgespeichert und ein neuer Leihschein wird für den Nutzer gedruckt.
 
 ##### Aktivitätsdiagramm
 ![](https://user-images.githubusercontent.com/38462344/39565545-ab62d4e0-4eb8-11e8-8561-6bafd10a936b.JPG)
@@ -119,10 +119,10 @@ Das Softwaresystem soll die unter 5. aufgeführten Funktionalitäten korrekt und
 Das Softwaresystem muss im Raum Z136b der HTW Dresden unter dem Betriebssystem Windows 10 lauffähig und ausführbar sein. 
 
 ### 8.2 Rechtliche Rahmenbedingungen
-Es gilt die gültige Bibliotheksnutzerordnung der Bibliothek der HTW Dresden. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
+Es gilt die gültige Bibliotheksnutzungsordnung der Bibliothek der HTW Dresden. Das Softwaresystem ist urheberrechtlich geschützt und darf nicht durch Dritte und außerhalb der Bibliothek der HTW Dresden verwendet werden. 
 
 ### 8.3 Organisatorische Rahmenbedingungen
-Die unterschiedlichen Benutzertypen haben verschiedene Ausleihzeiten, die durch die Bibliotheksnutzerordnung geregelt sind.  
+Die unterschiedlichen Benutzertypen haben verschiedene Ausleihzeiten, die durch die Bibliotheksbenutzungsordnung geregelt sind.  
 
 ## 9. Anforderungen an die Dokumentation
 Um sowohl Endbenutzern als auch Entwicklern die Funktionsweise des Softwaresystems zu erläutern, wird eine Dokumentation zur Verfügung gestellt. Diese gliedert sich in unterschiedliche Teildokumentationen.
@@ -153,17 +153,17 @@ Folgende Testfälle werden vorgeführt:
 ### 10.2 Dialog Rückgabe und Verlängerung
 * Verlängerung über die Gültigkeit des Benutzerausweises hinaus
 * Verlängerung trotzdem der Benutzer seinen Verpflichtungen der Bibliothek gegenüber nicht nachgekommen ist 
-* Verlängerung eines mittlerweile anderweitig vorgmerkten Werkes
+* Verlängerung eines mittlerweile anderweitig vorgemerkten Werkes
 * Verlängerung mit fehlenden, aber notwendigen Eingaben in das System
 * Verlängerung mit korrekten Eingaben
 * Rückgabe mit fehlenden, aber notwendigen Eingaben in das System
 * Rückgabe mit korrekten Eingaben
 
 ## 11. Glossar
-* **Aktivitätsdiagramm** - stellt dar, welche Aktionen aufeinander folgen, zyklisch oder bedingungsabhängig gesteuert sind; Aktionen können definierten Verantwortungsbereichen zugeordnet werden
+* **Aktivitätsdiagramm** - stellt den Ablauf von Aktionen innerhalb eines Anwendungsfalls dar; Aktionen können definierten Verantwortungsbereichen zugeordnet werden
 * **Anwendungsfalldiagramm** - stellt die funktionalen Anforderungen aus der Sicht der Anwender dar; die funktionalen Anforderungen werden zu den Beiteiligten aus dem Kontext in Beziehung gesetzt
 * **Datenbank** - enthält die nach einheitlichen Gesichtspunkten gespeicherte Menge der Objekte, Objektklassen und Beziehungen eines Bereichs (einschließlich zugehöriger Organisations- und Metadaten)
-* **Datenbankmanagamentsystem** - Software, die es aufbauend auf dem Rechnerbetriebssystem gestattet, die Datenmenge effektif und rationell zu speichern, zu pflegen, auszuwerten und Sonderfunktionen, wie Datensicherung, Zugriffschutz u.a. auszuführen
+* **Datenbankmanagamentsystem** - Software, die es aufbauend auf dem Rechnerbetriebssystem gestattet, die Datenmenge effektiv und rationell zu speichern, zu pflegen, auszuwerten und Sonderfunktionen, wie Datensicherung, Zugriffschutz u.a. auszuführen
 * **ERM** - Entity Relationship Model; entspricht dem semantischen Datenmodell und stellt mittels Objekten und deren Beziehung zueinander die Zusammenhänge, Bedeutungen sowie die Informationsarten der einzelnen Objekte dar
 * **GUI** - graphische Benutzeroberfläche; über das GUI ist die Anwendungssoftware bedienbar
 * **Unit-Test** - testet Einzelteile (Units) eines Programms auf ihre Funktionalität
