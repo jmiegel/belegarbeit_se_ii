@@ -109,7 +109,7 @@ Signatur
 ### 6.2 ERM 
 Entity Relationship Model für das Ausleihen, Verlängern und Zurückgeben von Büchern
 
-![](https://user-images.githubusercontent.com/25896546/39780432-8b2d9f54-530c-11e8-8ef4-2157a0ca331b.jpg)
+![](https://raw.githubusercontent.com/jmiegel/belegarbeit_se_ii/14_ERM/ERM.jpg)
 
 ## 7. Qualitätsanforderungen
 Das Softwaresystem soll die unter 5. aufgeführten Funktionalitäten korrekt und vollumfänglich erfüllen. Die graphische Benutzeroberfläche soll übersichtlich gestaltet und gut lesbar sein. Leicht verständliche und hilfreiche Fehlermeldungen erleichtern zudem die Bedienung des Softwaresystems und geben dem Nutzer Hinweise zur Fehlervermeidung. 
