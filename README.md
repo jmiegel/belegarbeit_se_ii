@@ -43,3 +43,8 @@ Treffen:
 * 18./19. KW: Verteidigung Pflichtenheft, Vorstellung Entwurfskonzept
 * 21./22. KW: Verteidigung Entwurf & Datenbankkonzeption, Vorstellung Konzept Implementierung
 * 23./24. KW: Implementierung, Dokumentation, Teamarbeit
+
+Bekannte Mängel:
+-	Ausleihe wird vom aktuellen Datum aus verlängert nicht vom Rückgabedatum wie vorgesehen
+-	Verlängerung aktuell um 14 Tage (nicht 28 wie vorgesehen)
+-	Beim Zurückgeben und Verlängern kommt die Meldung „Einträge erfolgreich gelöscht“ auch dann wenn kein Eintrag ausgewählt ist
