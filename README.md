@@ -46,5 +46,4 @@ Treffen:
 
 Bekannte Mängel:
 -	Ausleihe wird vom aktuellen Datum aus verlängert nicht vom Rückgabedatum wie vorgesehen
--	Verlängerung aktuell um 14 Tage (nicht 28 wie vorgesehen)
--	Beim Zurückgeben und Verlängern kommt die Meldung „Einträge erfolgreich gelöscht“ auch dann wenn kein Eintrag ausgewählt ist
+- Beim Verlängern eines Buches wird 2 mal die Meldung "zurückgeben fehlgeschlagen       Keine Einträge gefunden" angezeigt bevor die Ausleihe verlängert wird und wenn tatsächlich kein Eintrag ausgewählt ist zum verlängern wird die gleiche Meldung 3 mal angezeigt
