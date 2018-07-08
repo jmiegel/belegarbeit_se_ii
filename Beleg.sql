@@ -1,7 +1,4 @@
-DROP TABLE ausleihe
-DROP TABLE bibliotheksNutzer
-DROP TABLE bibliotheksBuch
-
+--Tabelle für den Bibliotheksnutzer
 create Table bibliotheksNutzer(
 	nutzerid	CHAR(5) NOT NULL PRIMARY KEY,
 	abDatum		DATE,
@@ -10,6 +7,7 @@ create Table bibliotheksNutzer(
 )
 --mahung, 0 = keine Mahnung vorhanden, 1 = eine oder mehrere Mahnungen
 
+--Tabelle für das Bibltiotheksbuch
 create Table bibliotheksBuch(
 	signatur	CHAR(8) NOT NULL PRIMARY KEY,
 	titel		VARCHAR(50) NOT NULL,
@@ -19,6 +17,7 @@ create Table bibliotheksBuch(
 )
 --vorgemerkt = NULL wenn keiner es vorgemerkt hat sonst die nutzerID
 
+--Tabelle für die Ausleihe
 create Table ausleihe(
 	nutzerid	CHAR(5) NOT NULL,
 	signatur	CHAR(8) NOT NULL,
@@ -31,6 +30,7 @@ create Table ausleihe(
 	
 )
 
+--Einfügen von
 --Nutzer
 INSERT INTO bibliotheksNutzer VALUES ('10001', '2019-04-01', 0)
 INSERT INTO bibliotheksNutzer VALUES ('10002', '2019-05-21', 0)
@@ -76,9 +76,3 @@ INSERT INTO ausleihe VALUES('10001', '10000005', '2018-08-29')
 INSERT INTO ausleihe VALUES('10001', '10000007', '2018-08-29')
 INSERT INTO ausleihe VALUES('10005', '10000001', '2018-06-06')
 INSERT INTO ausleihe VALUES('10014', '10000006', '2018-07-28')
-
-select * from bibliotheksBuch
-select * from bibliotheksNutzer
-
-select * from ausleihe
-SELECT ausleihe.signatur, titel, autor, exTyp, vorgemerkt, ausleihe.nutzerid, abDatum, mahnung, rückgabeDatum FROM ausleihe, bibliotheksBuch, bibliotheksNutzer WHERE ausleihe.nutzerid = bibliotheksNutzer.nutzerid AND ausleihe.signatur = bibliotheksBuch.signatur
